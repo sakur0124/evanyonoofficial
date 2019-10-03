@@ -1,0 +1,367 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+/*---------------------------------------------------------------------------------------------------------------
+reset
+----------------------------------------------------------------------------------------------------------------*/
+p{
+    color:white;
+}
+
+
+h1{
+    font-size: 100px;
+    color: white;
+}
+
+body{
+    background-color:black;
+}
+
+ header{
+     background-color: white;
+     width: 100%;
+     height: 130px;
+     border: 3px solid black;
+     }
+
+
+#logo{
+    margin-left: 30px;
+    width: 200px;
+    padding-left: 80px;
+    padding-top: 10px;
+    background: url("logo.png")no-repeat left;
+    background-size: 25%;
+    font-size: 36px;
+    float: left;
+    font-weight: bold;
+   
+}
+
+ ul{
+     float: right;
+     margin-right: 30px;
+     margin-top: 10px;
+     font-size: 20px;
+ }    
+
+ ul>li{
+     float: left;
+     margin-left: 40px;
+     list-style: none;
+     
+ }
+
+ ul>li>a{
+     position: relative;
+     display: inline-block;
+     text-decoration: none;
+     color: black;
+ }
+
+ a::after{
+     position: absolute;
+     bottom: -3px;
+     left: 0;
+     content: '';
+     width: 100%;
+     height: 3px;
+     background:black;
+     transform: scale(0,1);
+     transform-origin: top left;
+     transition:transform .3s;
+
+ }
+ 
+ a:hover::after{
+     transform: scale(1,1);
+    
+ }
+
+ #about{
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+ }
+
+ #about>h1{
+     float: right;
+  
+ }
+
+ #intro{
+    padding-top: 30px;
+    width: 78%;
+    height: 400px;
+    font-size: 26px;
+    line-height: 2;
+ }
+
+ #album{
+
+    justify-content: flex-end;
+     margin: 0 auto;
+     margin-top: 100px;
+     width: 70%;
+     height: auto;
+     display: flex;
+     flex: none;
+     flex-wrap: wrap;
+ }
+
+ .box{
+   padding-top: 10px; 
+   width: 80%;
+   height: 300px;
+   font-size: 40px;
+
+  
+ 
+ }
+
+ .box2{
+     box-sizing: border-box;
+    text-align: right;
+    padding-right: 100px;
+ }
+
+
+.box span{
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 16px;
+}
+
+.box p{
+    padding-top: 10%;
+}
+
+ #album1{
+    background: url("album1.jpg")no-repeat right;
+    background-size: contain;
+ }
+
+ #album>h1{
+   position: absolute;
+   left:230px;
+ }
+
+
+ #album2{
+    background: url("album2.jpg")no-repeat left;
+    background-size: contain;
+ 
+ }
+
+
+ #album3{
+    background: url("album3.jpg")no-repeat right;
+    background-size: contain;
+ }
+
+
+ #album4{
+    background: url("album4.jpg")no-repeat  left;
+    background-size: contain;
+  
+ }
+
+
+ #album5{
+    background: url("album5.jpg")no-repeat right;
+    background-size: contain;
+ }
+
+
+ #album6{
+    background: url("album6.jpg")no-repeat  left;
+    background-size: contain;
+
+ }
+
+
+ #songs{
+   
+    padding-top: 80px;
+    width: 70%;
+    margin: 0 auto;
+    
+ }
+ #songs>h1{
+     float: left;
+ }
+
+ #songs ul{
+     width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
+ }
+
+
+ #songs li{
+    width: 100%;
+    height:400px;
+  
+ }
+
+ #songs h2{ 
+     padding: 20px;
+     color: white;
+     font-size: 26px;
+ }
+
+ #pagetop{
+     width: 100px;
+     height: 100px;
+     position: fixed;
+     right: 30px;
+     bottom: 0;
+     background:url("rocket.jpg")no-repeat;
+     background-size: contain;
+  
+ }
+
+ footer{
+   bottom: 0;  
+   width: 100%;
+   height: 40px;
+   padding-left: 20px;
+  
+
+ }
+
+footer>.icons{
+    height: 40px;
+    width: 40px;
+    border: 2px solid white;
+    float: left;
+    margin-right: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+  
+}
+
+footer>#fb{
+
+    background:url("fblogo.png")no-repeat left;
+    background-size: contain;
+   
+}
+
+footer>#ins{
+    background:url("ins.jpg")no-repeat center;
+    background-size: 200%;
+}
+
+footer>#ytb{
+    background:url("youtube.png")no-repeat center;
+    background-size: contain;
+}
+
+
+ .clearbox{
+     clear: both;
+ }
