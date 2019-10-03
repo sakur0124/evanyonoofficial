@@ -1,0 +1,119 @@
+f<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="Evan.css">
+    <title>Document</title>
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.js"
+    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div id="logo">Even Yo</div>
+        <ul>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#album">ALBUM</a></li>
+            <li><a href="#songs">SONGS</a></li>
+        </ul>
+    </header>
+    <div id="about">
+        <img src="topimg.jpg" alt="topimage">
+        <h1>蔡<br>旻<br>佑</h1>
+        <div id="intro">
+            <p>
+                蔡旻佑（1986年11月12日－），英文名Evan Yo，是台灣流行歌曲男歌手、作曲家、唱片製作人、演員、主持人，畢業於國立臺灣師範大學附屬高級中學音樂班、國立臺灣師範大學音樂學系。2001年，蔡旻佑參加飛碟電台歌唱比賽，獲經紀公司簽約。2006年，他加入綜藝天王吳宗憲的「嘉瑪音樂」，成為「憲憲家族」旗下藝人，也成為台灣索尼音樂娛樂旗下歌手，陸續發行個人創作專輯。2013年起，蔡旻佑開始嘗試多元發展，橫跨音樂、戲劇和主持領域。2014年，蔡旻佑成立個人工作室「可以音樂」，開始擔任製作人，並加入知名歌手暨製作人周傳雄的經紀公司「一起娛樂」。
+            </p>
+        </div>
+    </div>
+    <div id="album">
+      <h1>專<br>輯</h1>
+      <div class="box" id="album1">
+          <p>蔡旻佑首張創作專輯 19<span>2006 Dec</span></p>
+      </div>
+      <div class="box box2" id="album2">
+          <p>搜尋蔡旻佑<span>2008 Jul</span></p>
+      </div>
+      <div class="box" id="album3">
+            <p>寂寞，好了<span>2009 Oct</span></p>
+
+      </div>
+      <div class="box box2" id="album4">
+          <p>超級右腦<span>2012 Dec</span></p>
+      </div>
+      <div class="box" id="album5">
+          <p>我和我的布拉姆斯<span>2016 Jul</span></p>
+      </div>
+      <div class="box box2" id="album6">
+          <p>變心記<span>2019 Aug</span></p>
+      </div>
+    </div>
+    <div id="songs">
+        <h1>推<br>薦<br>歌<br>曲 
+        </h1>
+        
+        <ul>
+            <li>
+                <h2>我可以</h2>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/btjDxlXGBVs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </li>
+            <li>
+                <h2>寂寞好了</h2>
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/iExSYmAA4bA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </li>
+            <li>
+                <h2>伎倆</h2>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/p4etDdnZdXM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            </li>
+            <li>
+                <h2>獨佔</h2>
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/x9ZQNU4tC0Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </li>
+            <li>
+                <h2>變心記</h2>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/SVJk0ll_jSs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            </li>
+      </ul>
+
+    </div>
+    <div class="clearbox"></div>
+    <a href="#">
+        <div id="pagetop"></div>
+    </a>
+
+    
+    <footer>
+ 
+            <div class="icons" id="fb" onclick="location.href='https://www.facebook.com/evanyoofficial';"></div>
+       
+        
+            <div class="icons" id="ins" onclick="location.href='https://www.instagram.com/evanyo/';"></div>
+   
+            <div class="icons" id="ytb" onclick="location.href='https://www.youtube.com/user/evanyoofficial';"></div>
+     
+       
+    </footer>
+    
+    <script>
+        $(function(){
+         $('#pagetop').hide();
+         $(window).scroll(function(){
+             if($(this).scrollTop()>600){
+                $('#pagetop').fadeIn()
+
+             }else{
+                 $('#pagetop').fadeOut();}
+             });
+         });
+
+       
+    
+    </script>
+
+</body>
+</html>
