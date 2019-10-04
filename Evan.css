@@ -365,3 +365,76 @@ footer>#ytb{
  .clearbox{
      clear: both;
  }
+
+ /*---------------------------------------------------------------------
+           720px
+ ----------------------------------------------------------------------*/
+ @media (max-width:760px){
+
+    #logo{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+
+
+   #about>img{
+      width: 95%;
+      height: auto;
+      margin:40px auto; 
+   
+   }
+
+#about>h1{
+float: none;
+margin:20px auto;
+
+}
+
+
+#intro{
+    width: 100%;
+    font-size: 16px;
+   
+}
+
+#album{
+    margin-top: 200px;
+    display: block;
+}
+
+#album>h1{
+
+ width: 100%;
+ height: 40%;
+}
+
+
+.box p{
+  display: none;
+}
+
+#album1{
+    padding-top: 400px;
+   
+    
+}
+#songs{
+    width: 100%;
+}
+
+#songs ul{
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+
+}
+
+ iframe{
+    margin: 0 auto;
+    height:300px;
+    width: 300px;
+    resize: both;
+    overflow: auto;
+}
+ }
